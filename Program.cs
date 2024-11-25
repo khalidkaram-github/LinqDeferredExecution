@@ -6,7 +6,7 @@
         {
             int[] numbers = { 10, 2, 3, 4, 50 };
 
-            var subset = numbers.Where(c => c < 10).Where(c => c > 2);//2,3,4
+            var subset = numbers.Where(c => c < 10).Where(c => c > 2);//3,4
 
 
             // LINQ statement evaluated here!
